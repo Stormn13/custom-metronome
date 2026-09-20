@@ -10,7 +10,7 @@ export default function MUISlider() : React.JSX.Element {
   };
   return(
     <Box sx={{width:200}}> 
-    <Slider aria-label="bpm" value={value} onChange={handleChange} />
+    <Slider aria-label="bpm" value={value} onChange={handleChange}/>
     </Box>
 );
 }
