@@ -10,7 +10,7 @@ export default function PlayButton() : React.JSX.Element {
     };
     return(
         <>
-            <IconButton onClick={handleToggle} aria-label={isOn ? "pause" : "play"}>
+            <IconButton onClick={handleToggle} aria-label={isOn ? "pause" : "play"} sx={{bgcolor:'white'}}>
                 {isOn ? <PlayArrowIcon/> : <PauseIcon/>}
             </IconButton>
         </>
